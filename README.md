@@ -1,6 +1,9 @@
 # JSON5 – Modern JSON
 
-[![Build Status](https://travis-ci.org/aseemk/json5.png)](https://travis-ci.org/aseemk/json5)
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Coverage Status][coveralls-badge]][coveralls-url]
+[![Dependency Status][david-badge]][david-url]
 
 JSON is an excellent data format, but we think it can be better.
 
@@ -278,8 +281,15 @@ parser. I’m super grateful for that clean and well-documented code.
 [Max Nanasy](https://github.com/MaxNanasy) has been an early and prolific
 supporter, contributing multiple patches and ideas. Thanks Max!
 
-[Andrew Eisenberg](https://github.com/aeisenberg) has contributed the
-`stringify` method.
+[Andrew Eisenberg](https://github.com/aeisenberg) has contributed the `stringify` method.
+[Jordan Tucker](https://github.com/jordanbtucker) has aligned JSON5 more closely with ES5 and is actively maintaining this project.
 
-[Jordan Tucker](https://github.com/jordanbtucker) has aligned JSON5 more closely
-with ES5 and is actively maintaining this project.
+[npm-badge]: https://img.shields.io/npm/v/json5.svg
+[npm-url]: https://npmjs.com/package/json5
+[travis-badge]: https://api.travis-ci.org/aseemk/json5.svg
+[travis-url]: https://travis-ci.org/aseemk/json5
+[coveralls-badge]:https://coveralls.io/repos/aseemk/json5/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/aseemk/json5?branch=master
+[david-badge]: https://david-dm.org/aseemk/json5.svg
+[david-url]: https://david-dm.org/aseemk/json5
+
