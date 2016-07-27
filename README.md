@@ -124,7 +124,7 @@ This implementation’s own [package.json5](package.json5) is more realistic:
 
 {
     name: 'json5',
-    version: '0.4.0',
+    version: '0.5.0',
     description: 'JSON for the ES5 era.',
     keywords: ['json', 'es5'],
     author: 'Aseem Kishore <aseem.kishore@gmail.com>',
@@ -137,12 +137,14 @@ This implementation’s own [package.json5](package.json5) is more realistic:
     ],
     main: 'lib/json5.js',
     bin: 'lib/cli.js',
+    files: ["lib/"],
     dependencies: {},
     devDependencies: {
-        gulp: '^3.9.0',
-        'gulp-jshint': '^1.11.2',
-        'jshint-stylish': '^2.0.1',
-        mocha: '^2.3.3',
+        gulp: "^3.9.1",
+        'gulp-jshint': "^2.0.0",
+        jshint: "^2.9.1",
+        'jshint-stylish': "^2.1.0",
+        mocha: "^2.4.5"
     },
     scripts: {
         build: 'node ./lib/cli.js -c package.json5',
@@ -253,7 +255,7 @@ tests, and ensure that `npm test` continues to pass.
 
 ## License
 
-MIT License © 2012-2015 Aseem Kishore, and [others](
+MIT License © 2012-2016 Aseem Kishore, and [others](
 https://github.com/aseemk/json5/contributors).
 
 
@@ -276,4 +278,8 @@ parser. I’m super grateful for that clean and well-documented code.
 [Max Nanasy](https://github.com/MaxNanasy) has been an early and prolific
 supporter, contributing multiple patches and ideas. Thanks Max!
 
-[Andrew Eisenberg](https://github.com/aeisenberg) has contributed the `stringify` method.
+[Andrew Eisenberg](https://github.com/aeisenberg) has contributed the
+`stringify` method.
+
+[Jordan Tucker](https://github.com/jordanbtucker) has aligned JSON5 more closely
+with ES5 and is actively maintaining this project.
