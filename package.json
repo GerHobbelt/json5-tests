@@ -17,7 +17,9 @@
     "files": [
         "lib/"
     ],
-    "dependencies": {},
+    "dependencies": {
+        "yargs": "^3.32.0"
+    },
     "devDependencies": {
         "gulp": "^3.9.1",
         "gulp-jshint": "^2.0.0",
