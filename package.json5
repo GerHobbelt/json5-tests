@@ -18,18 +18,17 @@
     bin: 'lib/cli.js',
     files: ["lib/"],
     dependencies: {
-        yargs: '^3.32.0',
+        yargs: '7.1.0',
     },
     devDependencies: {
-        coveralls: '2.11.11',
-        gulp: '^3.9.1',
-        'gulp-jshint': '2.0.1',
-        istanbul: '0.4.4',
-        'jshint-stylish': '2.2.0',	
-        mocha: '2.5.3',
+        coveralls: '2.13.0',
+        eslint: '3.19.0',
+        istanbul: '0.4.5',
+        mocha: '3.2.0',
     },
     scripts: {
         build: 'node ./lib/cli.js -c package.json5',
+        lint: './node_modules/.bin/eslint lib/*.js test/*.js',
         test: 'mocha --ui exports --reporter spec',
         coverage: 'istanbul cover -- _mocha --ui exports --report lcovonly; cat ./coverage/lcov.info | coveralls'
             // TODO: Would it be better to define these in a mocha.opts file?
