@@ -1,0 +1,10 @@
+{
+	str1: <<EOT
+just a bit of "blabla", sans \e\s\c\a\p\e\s of \a\n\y kind!
+EOT,
+
+// note: no indenting of EOT marker anyway!
+	str2: <<EOT
+more of that...
+EOT,
+}
