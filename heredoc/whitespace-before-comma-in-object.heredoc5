@@ -1,0 +1,8 @@
+{
+    "foo": <<EOT
+bar
+EOT      ,
+// optional comma MAY be preceeded by optional whitespace, as with all other fields...
+
+    "bugger": "me!"
+}
