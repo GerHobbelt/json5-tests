@@ -14,6 +14,10 @@ The test cases' file extension signals the expected behavior:
 - Invalid ES5 should remain invalid JSON5. These cases have a `.txt` extension
   and are expected to fail.
 
+- **Exception**: 
+  Valid JSON5 HEREDOC should be parsed correctly. These cases have a `.heredoc5` extension
+  and are tested via comparing them against the same files with a `.json` extension.
+
 This should cover all our bases. Most of the cases are unit tests for each
 supported data type, but aggregate test cases are welcome, too.
 
